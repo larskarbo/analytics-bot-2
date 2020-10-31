@@ -1,8 +1,7 @@
 const propertyId = 250791696;
 // const propertyId = 238756690;
 
-process.env.GOOGLE_APPLICATION_CREDENTIALS =
-  "/Users/lars/dev/analytics-bot-2/key.json";
+process.env.GOOGLE_APPLICATION_CREDENTIALS = "/Users/lars/dev/analytics-bot-2/key.json";
 
 const { AlphaAnalyticsDataClient } = require("@google-analytics/data");
 
