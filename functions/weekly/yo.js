@@ -50,6 +50,11 @@ async function lastWeekActiveUsers() {
 
   console.log("Last week: ");
   console.log(data)
+  return data
 }
 
-lastWeekActiveUsers();
+// lastWeekActiveUsers();
+
+module.exports ={
+  lastWeekActiveUsers:lastWeekActiveUsers
+}
